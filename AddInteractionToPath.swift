@@ -23,6 +23,7 @@ struct AddInteractionToPath: View {
                     .font(.headline)
 
                 // Approach 1: Not-so-smart Approach
+                // ZStack is only for demo purpose. It is not required.
                 ZStack {
                     path
                     Button(action: {
@@ -41,6 +42,7 @@ struct AddInteractionToPath: View {
                 }
 
                 // Approach 2: A little better approach
+                // ZStack is only for demo purpose. It is not required.
                 ZStack {
                     let contentShape: ShapeFromPath = ShapeFromPath(path: path)
 
